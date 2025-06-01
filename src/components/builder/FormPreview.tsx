@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { useFormStore } from '../../store/formStore';
-import { FormField, FormPreviewMode } from '../../types/form';
+import { FormField } from '../../types/form';
 import { renderFormField } from '../ui/FormComponents';
 import { Smartphone, Tablet, Monitor, ArrowRight, ArrowLeft } from 'lucide-react';
 import Button from '../ui/Button';
 
 const FormPreview: React.FC = () => {
-  const { form, selectedStepId, previewMode, setPreviewMode } = useFormStore();
+  const { form, previewMode, setPreviewMode } = useFormStore();
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
   const [formValues, setFormValues] = useState<Record<string, any>>({});
   const [formErrors, setFormErrors] = useState<Record<string, string>>({});

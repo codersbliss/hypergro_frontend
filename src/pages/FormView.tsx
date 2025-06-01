@@ -10,7 +10,7 @@ import { useTheme } from '../context/ThemeContext';
 const FormView: React.FC = () => {
   const { formId } = useParams<{ formId: string }>();
   const { addResponse } = useFormResponseStore();
-  const { theme } = useTheme();
+  const {} = useTheme();
   
   const [form, setForm] = useState<FormTemplate | null>(null);
   const [loading, setLoading] = useState(true);

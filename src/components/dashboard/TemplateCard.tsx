@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileEdit, Copy } from 'lucide-react';
+import {  Copy } from 'lucide-react';
 import Button from '../ui/Button';
 import { FormTemplate } from '../../types/form';
 

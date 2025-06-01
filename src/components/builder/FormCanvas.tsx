@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautiful-dnd';
 import { useFormStore } from '../../store/formStore';
-import { FormField } from '../../types/form';
+// import { FormField } from '../../types/form';
 import { renderFormField } from '../ui/FormComponents';
 import { Trash2, GripVertical, Edit } from 'lucide-react';
 import Button from '../ui/Button';

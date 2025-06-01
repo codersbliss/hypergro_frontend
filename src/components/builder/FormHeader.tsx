@@ -10,10 +10,10 @@ import {
   Redo2, 
   Moon, 
   Sun,
-  FileText
+  // FileText
 } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext';
-import { nanoid } from 'nanoid';
+// import { nanoid } from 'nanoid';
 
 interface ShareModalProps {
   formId: string;
